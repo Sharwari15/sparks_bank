@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='resets.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='nav.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    <!-- icon -->
+    <link rel="shortcut icon" href="../static/images/icons8-bank-building-48.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6f628bdd8a.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div id="nav__logo">
+                <p>
+                    Sparks Bank
+                </p>
+            </div>
+            <div id="nav__items">
+                <div class="nav__item active">
+                    <a href="/" rel="noopener noreferrer">Home</a>
+                </div>
+                <div class="nav__item">
+                    <a href="/allcustomers" rel="noopener noreferrer">View Customers</a>
+                </div>
+                <div class="nav__item">
+                    <a href="/transferList" rel="noopener noreferrer">Transfer Money</a>
+                </div>
+            </div>
+        </nav>
+        <section id="firstSection">
+            <div class="main__content">
+                <div class="main__heading">Online banking made easy</div>
+                <div class="main__text">
+                    Online banking system for the people by their favourite Sparks Bank.
+                </div>
+                <button>
+                    <a href="http://" rel="noopener noreferrer">Get Started</a>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="secondSection">
+            <div class="main__image">
+                <img src="../static/images/103-social-feed-colour.svg" alt="A main explaining something">
+            </div>
+            <div class="main__content">
+                <span class="special__box" style="width: 7rem;">About Us</span>
+                <div class="main__heading">Welcome To Sparks Bank</div>
+                <div id="special__tag">
+                    <span id="line"></span>
+                    <p>
+                        20+ years of experience as an online bank
+                    </p>
+                </div>
+                <div class="main__text">
+                    Banks are an elemental part of society. Banks are located in different parts of the country and deal
+                    directly with the general public. They provide multiple services on customer-based requirements.
+
+                    Thus, Sparks Bank provides primary monetary services that boost the economic development of the
+                    country.
+                </div>
+            </div>
+        </section>
+        <section id="thirdSection">
+            <div id="section__header">
+                <div class="main__heading">
+                    Our Services
+                </div>
+            </div>
+            <div id="section__main">
+                <div class="features">
+                    <div class="features__small special__box">1st Feature</div>
+                    <div class="features__icon">
+                        <img src="../static/images/Registration.svg" alt="">
+                    </div>
+                    <div class="features__text">
+                        personal account details are safe and secure with us. Its our banks policy to not reveal details
+                        to maintain privacy.
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="features__small special__box">2st Feature</div>
+                    <div class="features__icon">
+                        <img src="../static/images/Cloud Data.svg" alt="">
+                    </div>
+                    <div class="features__text">
+                        Money transfer to people through our bank is easy and safe. With zero to no-hassle.
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="features__small special__box">3st Feature</div>
+                    <div class="features__icon">
+                        <img src="../static/images/Teamwork.svg" alt="">
+                    </div>
+                    <div class="features__text">
+                        Executed financial transactions according to bank policies and procedures.Responded to customer
+                        inquiries, providing information on bank accounts, policies, products, and services
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__div">
+                <div id="footer__logo">
+                    Sparks Foundation
+                </div>
+                <p>
+                    Perfect Banking Option For Daily Use
+                </p>
+            </div>
+            <div class="footer__div">
+                <div class="footer__text">
+                    Follow Us
+                </div>
+                <div class="footer__icons">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="footer__div">
+                <div class="footer__text">
+                    Call Us On
+                </div>
+                <div class="footer__icons">
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    +91 20102 20135
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
